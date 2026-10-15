@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+  "enabled": true,
+  "settings": {
+    "seekerCount": {
+      "title": "Number of seekers, 1-2 (host)",
+      "type": "number",
+      "value": 1
+    },
+    "countdownSeconds": {
+      "title": "Seeker countdown in seconds (host)",
+      "type": "number",
+      "value": 30
+    },
+    "respawnSeconds": {
+      "title": "Respawn time in seconds (host)",
+      "type": "number",
+      "value": 5
+    },
+    "deathGraceSeconds": {
+      "title": "Hider death grace period in seconds (host)",
+      "type": "number",
+      "value": 60
+    },
+    "voteSeconds": {
+      "title": "Planet vote time in seconds (host)",
+      "type": "number",
+      "value": 20
+    },
+    "touchDistance": {
+      "title": "Distance that counts as a touch, in metres (host)",
+      "type": "number",
+      "value": 2
+    },
+    "nametagRevealDistance": {
+      "title": "Distance at which hiders see each other's nametags, in metres (host)",
+      "type": "number",
+      "value": 8
+    },
+    "barrierMeters": {
+      "title": "Play area: metres above the surface before the barrier (host)",
+      "type": "number",
+      "value": 150
+    },
+    "hidersSeeSeekerNametags": {
+      "title": "Hiders can see seeker nametags (host)",
+      "type": "toggle",
+      "value": true
+    },
+    "disableTimeLoop": {
+      "title": "Disable the time loop (no supernova)",
+      "type": "toggle",
+      "value": true
+    },
+    "menuKey": {
+      "title": "Start / cancel Hide & Seek key (host)",
+      "type": "selector",
+      "value": "F8",
+      "options": [
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "F12",
+        "H",
+        "K",
+        "J"
+      ]
+    }
+  }
+}

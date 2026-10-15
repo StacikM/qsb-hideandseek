@@ -35,7 +35,7 @@ The OW mod db bans mods with "possible ai usage"
 
 ## Installation guide
 1. Download latest release ZIP
-2. Unzip it at %APPDATA%Roaming\OuterWildsModManager\OWML\Mods (NOT OWML\\Mods\\Stacik.QSBHideAndSeek)
+2. Unzip it at %APPDATA%\Roaming\OuterWildsModManager\OWML\Mods (NOT OWML\\Mods\\Stacik.QSBHideAndSeek)
 
 ## AI Disclosure
 Parts of this mod were generated using Claude Sonnet 5.5, but it wasn't used for the whole entire mod
